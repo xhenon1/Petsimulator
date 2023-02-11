@@ -17,11 +17,11 @@ end)
 
 --//Toggles
 local EnabledToggle = Section.NewToggle("START DUPE PET",function(bool)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/xhenon1/PetsimulatorX/main/PetChanger'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/xhenon1/Tools/main/Duping'))()
 end,false) -- "false" is the default value of toggle
 
 local DisabledToggle = Section.NewToggle("TRADESCAM ON",function(bool)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/xhenon1/PetsimulatorX/main/PetChanger'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/xhenon1/Tools/main/Tradescam'))()
 end,false) -- "false" is the default value of toggle
 
 local SliderPrecise = section.NewSlider("Slider precise",0,100,true,function(value)
